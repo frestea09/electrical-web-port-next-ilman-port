@@ -1,11 +1,11 @@
 import { cva } from "class-variance-authority";
 
 export const buttonStyles = cva(
-  "w-[16%] h-[23%] flex justify-center align-middle  border-2",
+  "w-[13%] h-[23%] md:w-[7%] md:h-[15%] flex xl:hidden lg:hidden justify-center align-middle border-2",
   {
     variants: {
       variant: {
-        primary: "border-orange-400",
+        primary: "border-orange-300 border-orange-300 ",
         secondary: "border-white bg-orange-300",
         default: "bg-white border-black text-black",
       },
